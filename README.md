@@ -1,2 +1,2 @@
 # CacheMemory
-Projekat iz ERS
+Projekat iz predmeta Elementi razvoja softvera
