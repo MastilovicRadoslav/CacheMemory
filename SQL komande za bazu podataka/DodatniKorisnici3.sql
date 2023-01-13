@@ -1,5 +1,5 @@
 insert into spent_energy_meter (customer, streetName, spent_total, streetNumber, city, state)
-values ('Jelena Hrnjak','Adi Endrea',24,54,'Novi Sad','Srbija');
+values ('Jelena Marjanovic','Adi Endrea',24,54,'Novi Sad','Srbija');
 
 insert into spent_energy_meter (customer, streetName, spent_total, streetNumber, city, state)
 values ('Radoslav Mastilovic','Alekse Jaksica',21,61,'Beograd','Srbija');
