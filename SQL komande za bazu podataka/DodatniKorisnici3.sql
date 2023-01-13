@@ -1,11 +1,11 @@
 insert into spent_energy_meter (customer, streetName, spent_total, streetNumber, city, state)
-values ('Jelena Marjanovic','Adi Endrea',24,54,'Novi Sad','Srbija');
+values ('Jelena Marjanovic','Adi Endrea', 24, 54,'Novi Sad','Srbija');
 
 insert into spent_energy_meter (customer, streetName, spent_total, streetNumber, city, state)
-values ('Radoslav Mastilovic','Alekse Jaksica',21,61,'Beograd','Srbija');
+values ('Radoslav Mastilovic','Alekse Jaksica', 21, 61,'Beograd','Srbija');
 
 insert into spent_energy_meter (customer, streetName, spent_total, streetNumber, city, state)
-values ('Kristian Tojzan','Aksentija Maksimovic',11,24,'Subotica','Srbija');
+values ('Kristian Tojzan','Aksentija Maksimovic', 11, 24,'Subotica','Srbija');
 
 insert into spent_energy_meter (customer, streetName, spent_total, streetNumber, city, state)
 values ('Milan Ivanovic','Alaska',31,14,'Jagodina','Srbija');
