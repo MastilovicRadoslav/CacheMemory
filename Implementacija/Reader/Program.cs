@@ -41,12 +41,11 @@ while (!option.Equals("0"))
                     {
                         brojac++;
                     }
-
-                    if(brojac == 0)
-                    {
-                        Console.WriteLine("Greška! Morate uneti broj između 1 i 12!");
-                        break;
-                    }
+            }
+            if(brojac == 0)
+            {
+                Console.WriteLine("Greška! Morate uneti broj između 1 i 12!");
+                break;
             }
 
             reader.SearchByMonth(monthId).ForEach(r =>
