@@ -31,6 +31,24 @@ while (!option.Equals("0"))
                 Console.WriteLine("Greška! Morate uneti broj između 1 i 12!");
                 break;
             }
+            
+            int mesec = int.Parse(input);
+            int[] meseci = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
+
+            for(int i = 0; i < 12; i++)
+            {
+                    int brojac = 0;
+                    if(mesec == meseci[i])
+                    {
+                        brojac++;
+                    }
+
+                    if(brojac == 0)
+                    {
+                        Console.WriteLine("Greška! Morate uneti broj između 1 i 12!");
+                        break;
+                    }
+            }
 
             reader.SearchByMonth(monthId).ForEach(r =>
             {
