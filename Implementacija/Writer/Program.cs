@@ -29,7 +29,7 @@ while (!input.Equals("kraj"))
     Console.WriteLine("Unesite potrošnju toplotne energije :");
     var spentEnery = Console.ReadLine();
     result = double.TryParse(spentEnery, out double insertedEnergy);
-    if (!result)
+    if (!result || insertedEnergy <= 0.0)
     {
         Console.WriteLine("Greška! Morate uneti decimalan broj!");
         continue;
