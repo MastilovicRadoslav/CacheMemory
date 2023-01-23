@@ -31,7 +31,7 @@ while (!input.Equals("kraj"))
     result = double.TryParse(spentEnery, out double insertedEnergy);
     if (!result || insertedEnergy <= 0.0)
     {
-        Console.WriteLine("Greška! Morate uneti decimalan broj!");
+        Console.WriteLine("Greška! Morate uneti ceo ili realan broj!");
         continue;
     }
 
