@@ -43,9 +43,13 @@ while (!option.Equals("0"))
         {
                 Console.WriteLine("Unesite ID korisnika koji želite :");
                 var input = Console.ReadLine();
-                int id = int.Parse(input);
                 var valid = int.TryParse(input, out var userId);
-                if (!valid || id <= 0) 
+                if (!valid) 
+                {
+                    Console.WriteLine("Greška! Morate uneti validan ID korisnika!");
+                    break;
+                }
+                else if(int.Parse(input) <= 0)
                 {
                     Console.WriteLine("Greška! Morate uneti validan ID korisnika!");
                     break;
