@@ -12,6 +12,7 @@ Writer writer = new Writer(dumpingBuffer, historical);
 
 Console.WriteLine("-------------------------------------------");
 Console.WriteLine("Unos podataka :");
+Console.WriteLine("-------------------------------------------");
 var input = string.Empty;
 
 while (!input.Equals("kraj"))
