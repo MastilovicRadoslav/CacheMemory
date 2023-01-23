@@ -5,9 +5,8 @@ Historical historical = new();
 
 Reader reader = new Reader(historical);
 
-//reader.SearchByMonth(1);
-
 var option = string.Empty;
+
 while (!option.Equals("0"))
 {
     Console.WriteLine("----------------------------------------------------------------");
@@ -33,7 +32,7 @@ while (!option.Equals("0"))
                 break;
             }
 
-                reader.SearchByMonth(monthId).ForEach(r =>
+            reader.SearchByMonth(monthId).ForEach(r =>
             {
                 Console.WriteLine(r);
             });
@@ -50,7 +49,6 @@ while (!option.Equals("0"))
                     Console.WriteLine("Greška! Morate uneti validan ID korisnika!");
                     break;
                 }
-
 
                 reader.SearchByUser(userId).ForEach(r =>
                 {
