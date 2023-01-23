@@ -20,7 +20,7 @@ while (!input.Equals("kraj"))
     Console.WriteLine("Unesite ID korisnika :");
     input = Console.ReadLine();
     var result = int.TryParse(input, out int userId);
-    if (!result)
+    if (!result || userId <= 0)
     {
         Console.WriteLine("Greška! Morate uneti ceo broj!");
         continue;
