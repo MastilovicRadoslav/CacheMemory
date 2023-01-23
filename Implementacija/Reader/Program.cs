@@ -34,10 +34,9 @@ while (!option.Equals("0"))
             
             int mesec = int.Parse(input);
             int[] meseci = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
-
+            int brojac = 0;
             for(int i = 0; i < 12; i++)
             {
-                    int brojac = 0;
                     if(mesec == meseci[i])
                     {
                         brojac++;
