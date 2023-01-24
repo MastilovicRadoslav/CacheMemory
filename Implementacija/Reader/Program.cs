@@ -12,7 +12,7 @@ while (!option.Equals("0"))
     Console.WriteLine("----------------------------------------------------------------");
     Console.WriteLine("Unesite opciju po kojoj želite da se ispišu podaci :");
     Console.WriteLine("\t1. Ispis podataka po mesecu!");
-    Console.WriteLine("\t2. Ispis podataka po IDu korisnika!");
+    Console.WriteLine("\t2. Ispis podataka po ID-u korisnika!");
     Console.WriteLine("\t3. Ispis podataka po nazivu grada!");
     Console.WriteLine("\t0. Kraj aplikacije!");
     option = Console.ReadLine();
