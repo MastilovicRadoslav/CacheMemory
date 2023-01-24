@@ -20,7 +20,8 @@ namespace CacheMemory.Structures.Implementations
             {
                 string connectionString;
                 SqlConnection cnn;
-				connectionString = @"Data Source=DESKTOP-9S5CVCU\SQLEXPRESS;Initial Catalog=ERS-cachememory;Integrated Security=True"; cnn = new SqlConnection(connectionString);
+				connectionString = @"Data Source=DESKTOP-9S5CVCU\SQLEXPRESS;Initial Catalog=ERS-cachememory;Integrated Security=True"; 
+                cnn = new SqlConnection(connectionString);
                 cnn.Open();
 
                 foreach (var s in spentEnergyMeters)
