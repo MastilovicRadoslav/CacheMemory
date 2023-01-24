@@ -20,8 +20,7 @@ namespace CacheMemory.Structures.Implementations
             {
                 string connectionString;
                 SqlConnection cnn;
-                connectionString = @"Data Source=KRISZTIAN\MSSQLSERVER2022;Initial Catalog=ERS-cachememory;Integrated Security=True";
-                cnn = new SqlConnection(connectionString);
+				connectionString = @"Data Source=DESKTOP-9S5CVCU\SQLEXPRESS;Initial Catalog=ERS-cachememory;Integrated Security=True"; cnn = new SqlConnection(connectionString);
                 cnn.Open();
 
                 foreach (var s in spentEnergyMeters)
@@ -67,8 +66,8 @@ namespace CacheMemory.Structures.Implementations
             {
 
                 SqlConnection cnn;
-                var connectionString = @"Data Source=KRISZTIAN\MSSQLSERVER2022;Initial Catalog=ERS-cachememory;Integrated Security=True"; ;
-                cnn = new SqlConnection(connectionString);
+				var connectionString = @"Data Source=DESKTOP-9S5CVCU\SQLEXPRESS;Initial Catalog=cacheMemory;Integrated Security=True";
+				cnn = new SqlConnection(connectionString);
                 cnn.Open();
                 try
                 {
@@ -116,8 +115,8 @@ namespace CacheMemory.Structures.Implementations
             {
 
                 SqlConnection cnn;
-                var connectionString = @"Data Source=KRISZTIAN\MSSQLSERVER2022;Initial Catalog=ERS-cachememory;Integrated Security=True";
-                cnn = new SqlConnection(connectionString);
+				var connectionString = @"Data Source=DESKTOP-9S5CVCU\SQLEXPRESS;Initial Catalog=cacheMemory;Integrated Security=True";
+				cnn = new SqlConnection(connectionString);
                 cnn.Open();
                 try
                 {
@@ -164,8 +163,8 @@ namespace CacheMemory.Structures.Implementations
             {
 
                 SqlConnection cnn;
-                var connectionString = @"Data Source=KRISZTIAN\MSSQLSERVER2022;Initial Catalog=ERS-cachememory;Integrated Security=True";
-                cnn = new SqlConnection(connectionString);
+				var connectionString = @"Data Source=DESKTOP-9S5CVCU\SQLEXPRESS;Initial Catalog=cacheMemory;Integrated Security=True";
+				cnn = new SqlConnection(connectionString);
                 cnn.Open();
                 try
                 {
