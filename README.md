@@ -9,3 +9,10 @@ Treća komponenta je Historical koja radi sa bazom podataka, smešta podatke koj
 Četvrta komponenta je Reader koja koristi metode iz Historical komponente i ispisuje podatke iz baze podataka na konzolu.
 
 Za sve detalje pročitati Opis projekta!
+
+
+Projekat su radili :
+dovla2001 - PR108/2020 - Mandić Vladimir - komponenta Writer
+Guess88 - PR101/2020 - Ivanović Milan - komponenta Dumping Buffer
+MastilovicRadoslav - PR106/2020 - Mastilović Radoslav - komponenta Historical
+TojzanKristian - PR104/2020 - Tojzan Kristian - komponenta Reader
