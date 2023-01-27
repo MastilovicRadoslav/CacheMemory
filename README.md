@@ -1,4 +1,4 @@
-# CacheMemory
+# Cache Memory
 Projekat iz predmeta Elementi razvoja softvera
 
 Kratak opis projekta :
